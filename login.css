@@ -1,0 +1,51 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container .header p{
+    font-size: 15px;
+}
+.container .contant .text h2{
+    text-align: center;
+    padding-top: 100px;
+}
+.container .contant {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+.container .contant .inputs .frist{
+    margin: 10px 0;
+}
+.container .inputs .frist input,
+.container .inputs .frist select{
+    width: 300px;
+    padding: 10px;
+    font-size: 10px;
+    border-radius: 5px;
+    border-color: rgb(220, 214, 206);
+}
+.container .button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container button {
+    width: 80px;
+    padding: 6px;
+    border: none;
+    background-color:#1193d4 ;
+    color: white;
+    border-radius: 8px;
+}
+.container button:hover{
+    background-color:#096391 ;
+    cursor: pointer;
+
+}
+.container .link{
+    padding: 5px;
+    font-size: 10px;
+}
