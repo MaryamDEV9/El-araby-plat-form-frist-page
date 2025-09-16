@@ -1,0 +1,146 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  background: #fff;
+  display: flex;
+  height: 100vh;
+}
+
+/* Structure */
+.all {
+  display: flex;
+  width: 100%;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 220px;
+  background: #fff;
+  border-right: 1px solid #ddd;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.sidebar h4 {
+  font-size: 15px;
+  margin-bottom: 25px;
+}
+.sidebar nav ul {
+  list-style: none;
+}
+.sidebar nav ul li {
+  margin: 12px 0;
+}
+.sidebar nav ul li a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #000;
+  display: block;
+  padding: 6px;
+  border-radius: 6px;
+}
+.sidebar nav ul li a:hover {
+  background: #f0f2f5;
+}
+.sidebar button {
+  margin-top: 20px;
+  padding: 10px;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.sidebar .help {
+  margin-top: auto;
+  font-size: 13px;
+  color: #555;
+}
+
+/* Main content */
+.content {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content h1 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  align-self: flex-start;
+}
+.content h2 {
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 20px;
+  align-self: flex-start;
+}
+
+/* Cards */
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background: #fff;
+  margin-bottom: 20px;
+  padding: 10px;
+  max-width: 650px;
+  width: 100%;
+}
+.card img {
+  width: 50%;
+  border-radius: 6px;
+}
+.card-text, .card-info {
+  flex: 1;
+  padding-left: 15px;
+}
+.card-text h3,
+.card-info h3 {
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+.card-text p,
+.card-info p {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Actions (buttons) */
+.actions {
+  display: flex;
+  justify-content: space-between;  /* واحد شمال والتاني يمين */
+  margin-top: auto;  /* يدفع الأزرار لأسفل الصفحة */
+  max-width: 650px;
+  width: 100%;
+  padding-top: 20px;
+}
+.actions button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+}
+.view-grades {
+  background: #1193d4;
+}
+.view-grades:hover {
+  background:#07577f ;
+}
+.view-schedule {
+  background: #1193d4;
+}
+.view-schedule:hover {
+  background: #07577f;
+}
