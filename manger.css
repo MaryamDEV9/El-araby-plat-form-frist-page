@@ -1,0 +1,117 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background: #fff;
+  display: flex;
+  height: 100vh;
+}
+
+/* Structure */
+.all {
+  display: flex;
+  width: 100%;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 220px;
+  background: #fff;
+  border-right: 1px solid #ddd;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.sidebar h4 {
+  font-size: 15px;
+  margin-bottom: 25px;
+}
+.sidebar nav ul {
+  list-style: none;
+}
+.sidebar nav ul li {
+  margin: 12px 0;
+}
+.sidebar nav ul li a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #000;
+  display: block;
+  padding: 6px;
+  border-radius: 6px;
+}
+.sidebar nav ul li a:hover {
+  background: #f0f2f5;
+}
+.sidebar button {
+  margin-top: 20px;
+  padding: 10px;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.sidebar .help {
+  margin-top: auto;
+  font-size: 13px;
+  color: #555;
+}
+
+/* Main content */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: #f8f9fa;
+}
+
+.content {
+  max-width: 900px;
+  margin: 0;
+  margin-left: 50px;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-top: 30px;
+  color: #333;
+}
+
+.teacher, .class {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.teacher img, .class img {
+  width: 120px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.info h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.info p {
+  margin: 5px 0 0;
+  color: #666;
+}
